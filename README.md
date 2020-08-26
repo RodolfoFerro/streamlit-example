@@ -1,9 +1,7 @@
-# Ejemplo de ML utilizando Streamlit 🚶🏻‍♂️
+# Example of an ML web app using Streamlit 🌱
 
 <!-- Project description -->
-This repository contains a trained version of PoseNet that runs directly with TensorFlow Lite.
-
-
+This repository contains code to build a Streamlit web app that serves an Iris classifier.
 
 
 ## Prerequisities
