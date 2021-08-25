@@ -1,3 +1,15 @@
+# ==============================================================
+# Author: Rodolfo Ferro
+# Twitter: @FerroRodolfo
+#
+# ABOUT COPYING OR USING PARTIAL INFORMATION:
+# This script has been originally created by Rodolfo Ferro.
+# Any explicit usage of this script or its contents is granted
+# according to the license provided and its conditions.
+# ==============================================================
+
+# -*- coding: utf-8 -*-
+
 from sklearn.datasets import load_iris
 from sklearn import tree
 
