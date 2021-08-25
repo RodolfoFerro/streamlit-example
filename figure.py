@@ -80,4 +80,5 @@ def plotly_figure_2(data):
     list_3d = [trace_setosa, trace_versicolor, trace_virginica]
 
     fig_3d = go.Figure(data=list_3d)
+    
     return fig_3d

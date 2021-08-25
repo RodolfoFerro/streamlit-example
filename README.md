@@ -1,4 +1,10 @@
 # Example of an ML web app using Streamlit 🌱
+![GitHub last commit](https://img.shields.io/github/last-commit/RodolfoFerro/streamlit-example?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/RodolfoFerro/streamlit-example?style=for-the-badge)
+![License](https://img.shields.io/github/license/RodolfoFerro/streamlit-example?style=for-the-badge) <br>
+[![Twitter](https://img.shields.io/twitter/follow/FerroRodolfo?label=Twitter&logo=twitter&style=for-the-badge)](https://twitter.com/FerroRodolfo/)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555)](https://www.linkedin.com/in/rodolfoferro/) <br>
+[![Slides](https://img.shields.io/static/v1?label=Slides&message=Google%20Slides&color=tomato&style=for-the-badge)](https://docs.google.com/presentation/d/e/2PACX-1vTBfub0FyiWLf_4NEnH7Ob6BHJtQaSsr1iqSC5C8deVtXWEbx9-o8i_03FS-qf6mk0jhKdUno1KtqAs/pub?start=false&loop=false&delayms=3000)
 
 <!-- Project description -->
 This repository contains code to build a Streamlit web app that serves an Iris classifier.
@@ -58,7 +64,7 @@ To install the requirements using `pip`, once the virtual environment is active:
 
 Finally, if you want to run the main script:
 ```bash
-$ streamlit run src/app.py
+$ streamlit run app.py
 ```
 
 #### Extend code!

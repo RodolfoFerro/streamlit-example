@@ -3,8 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-
-from iris import iris_classifier
+from iris import decision_tree
 from figure import plotly_figure_1
 from figure import plotly_figure_2
 
@@ -14,7 +13,7 @@ iris = pd.DataFrame(data.data, columns=data.feature_names)
 classes = data.target_names
 
 models = {
-    "Árbol de decisión": iris_classifier()
+    "Árbol de decisión": decision_tree()
 }
 
 # Sección de introducción
@@ -73,9 +72,10 @@ petal_width = st.slider(
 features = np.array([[sepal_lenght, sepal_width, petal_lenght, petal_width]])
 prediction = model.predict(features)[0]
 
-st.write(
-    """
+st.markdown(
+    f"""
     De acuerdo a la predicción del modelo, la clase correspondiente es: 
+
+    ### {classes[prediction]}
     """
 )
-st.header(f'{classes[prediction]}')
