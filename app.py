@@ -7,6 +7,30 @@
 # Any explicit usage of this script or its contents is granted
 # according to the license provided and its conditions.
 # ==============================================================
+# 
+# Contexto:
+#
+# * Tenemos una función que entrena un modelos de 
+#   clasificación sobre los datos de iris. Dicha función
+#   la encuentras en iris.py (ahí puedes agreagar otros
+#   modelos).
+# * Tenemos funciones para visualizar datos. Las funciones 
+#   fueron hechas con Plotly y las encuentras en figure.py.
+# 
+# ==============================================================
+# 
+# Tareas:
+#
+# Rellenar los espacios con la etiqueta TODO. Básicamente 
+# es realizar lo que se indica en los siguientes puntos. 
+# 
+# 1. Desplegar el dataframe de los datos.
+# 2. Desplegar una figura con los datos.
+# 3. Crear barra lateral con selector de modelo.
+# 4. Crear sliders para datos de entrada.
+# 5. Realizar predicción y desplegar resultado.
+#
+# ==============================================================
 
 # -*- coding: utf-8 -*-
 
@@ -28,6 +52,7 @@ models = {
     "Árbol de decisión": decision_tree()
 }
 
+
 # Sección de introducción
 st.title("Predicción de especies de Iris usando scikit-learn y Streamlit")
 st.write(
@@ -43,7 +68,8 @@ st.write(
     A continuación los datos utilizados.
     """
 )
-st.dataframe(iris)
+# TODO: 
+# st.dataframe(dataframe)
 
 # Sección de datos
 st.write(
@@ -51,15 +77,15 @@ st.write(
     Y un pequeño gráfico generado con Plotly.
     """
 )
-fig = plotly_figure_2(iris)
-st.plotly_chart(fig)
+# TODO: 
+# figure = create_figure(iris)
+# st.plotly_chart(figure)
 
 # Selección del modelo
-model_selector = st.sidebar.selectbox(
-    "Selecciona el modelo a utilizar:",
-    list(models.keys())
-)
-model = models[model_selector]
+# TODO: 
+# model_selector = st.sidebar.selectbox(title, list)
+# Use list form models.keys()
+# Then make model = models[model_selector] to get the specified model
 
 # Especificación de datos
 st.write(
@@ -67,27 +93,26 @@ st.write(
     Especificamos las características:
     """
 )
-sepal_lenght = st.slider(
-    "Longitud del sépalo", 0.0, 10.0, 5.0, 0.05
-)
-sepal_width = st.slider(
-    "Ancho del sépalo", 0.0, 5.0, 2.5, 0.05
-)
-petal_lenght = st.slider(
-    "Longitud del pétalo", 0.0, 8.0, 4.0, 0.05
-)
-petal_width = st.slider(
-    "Ancho del pétalo", 0.0, 3.0, 1.5, 0.05
-)
+
+# TODO:
+# Create a st.slider(text, min, max, start, step) for
+# each feature in iris.columns:
+# sepal_length (cm) -> (0.0, 10.0, 5.0, 0.05)
+# sepal_width (cm) -> (0.0, 5.0, 2.5, 0.05)
+# petal_length (cm) -> (0.0, 8.0, 4.0, 0.05)
+# petal_width (cm) -> (0.0, 3.0, 1.5, 0.05)
 
 # Predicción
-features = np.array([[sepal_lenght, sepal_width, petal_lenght, petal_width]])
-prediction = model.predict(features)[0]
+# TODO: 
+# features = np.array([[sepal_lenght, sepal_width, petal_lenght, petal_width]])
+# prediction = model.predict(features)[0]
+# tag = classes[prediction]
+tag = None
 
 st.markdown(
     f"""
     De acuerdo a la predicción del modelo, la clase correspondiente es: 
 
-    ### {classes[prediction]}
+    ### {tag}
     """
 )
