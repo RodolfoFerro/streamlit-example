@@ -2,7 +2,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/RodolfoFerro/streamlit-example?logo=github&style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/RodolfoFerro/streamlit-example?logo=github&style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/RodolfoFerro/streamlit-example?label=LICENSE&logo=github&style=for-the-badge) <br>
-[![Twitter](https://img.shields.io/twitter/follow/FerroRodolfo?label=Twitter&logo=twitter&logoColor=fff&style=for-the-badge)](https://twitter.com/FerroRodolfo/)
+[![Twitter](https://img.shields.io/twitter/follow/rodo_ferro?label=Twitter&logo=twitter&logoColor=fff&style=for-the-badge)](https://twitter.com/rodo_ferro/)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&logoColor=fff&colorB=555)](https://www.linkedin.com/in/rodolfoferro/) <br>
 [![Slides](https://img.shields.io/static/v1?label=Slides&message=Google%20Slides&color=tomato&logo=google&logoColor=fff&style=for-the-badge)](https://docs.google.com/presentation/d/e/2PACX-1vTBfub0FyiWLf_4NEnH7Ob6BHJtQaSsr1iqSC5C8deVtXWEbx9-o8i_03FS-qf6mk0jhKdUno1KtqAs/pub?start=false&loop=false&delayms=3000)
 
