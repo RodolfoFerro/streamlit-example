@@ -7,23 +7,23 @@
 # Any explicit usage of this script or its contents is granted
 # according to the license provided and its conditions.
 # ==============================================================
-# 
+#
 # Contexto:
 #
-# * Tenemos una función que entrena un modelos de 
+# * Tenemos una función que entrena un modelos de
 #   clasificación sobre los datos de iris. Dicha función
 #   la encuentras en iris.py (ahí puedes agreagar otros
 #   modelos).
-# * Tenemos funciones para visualizar datos. Las funciones 
+# * Tenemos funciones para visualizar datos. Las funciones
 #   fueron hechas con Plotly y las encuentras en figure.py.
-# 
+#
 # ==============================================================
-# 
+#
 # Tareas:
 #
-# Rellenar los espacios con la etiqueta TODO. Básicamente 
-# es realizar lo que se indica en los siguientes puntos. 
-# 
+# Rellenar los espacios con la etiqueta TODO. Básicamente
+# es realizar lo que se indica en los siguientes puntos.
+#
 # 1. Desplegar el dataframe de los datos.
 # 2. Desplegar una figura con los datos.
 # 3. Crear barra lateral con selector de modelo.
